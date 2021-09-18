@@ -1,0 +1,42 @@
+#vootHeaders {
+  width: 100%;
+  height: 60px;
+  background: #0d0620;
+  position: fixed;
+}
+
+#vootHeaders article {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  height: 60px;
+  align-items: center;
+  color: #fff;
+}
+
+#vootHeaders article .vootLogo {
+  flex-basis: 40%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+#vootHeaders article .vootMenu {
+  flex-basis: 60%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.vootLogo img {
+  width: 62px;
+  height: 23px;
+  vertical-align: baseline;
+}
+
+#vootHeader ul {
+  display: flex;
+  list-style: none;
+}
+
+#vootHeader ul li a {
+  color: #fff;
+}
